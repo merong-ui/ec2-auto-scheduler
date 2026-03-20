@@ -28,10 +28,10 @@ ________________________________________________
 Screenshots:
 
 •	Terraform configuration
- ![EC2 Running](images/ec2-running.png)
+![EC2 Running](images/Terraform-configuration.png)
 
 •	EC2 instances running in console
-
+![EC2 Running](images/EC2-instances-running-in-console.png)
 ________________________________________
 **Step 2: Lambda Function (Automation Logic)**
 
@@ -51,10 +51,10 @@ Testing:
 Screenshots:
 
 •	Lambda test execution
- 
+ ![Lambda Code](images/Lambda-test-execution.png)
 •	EC2 state after
  
-
+![EC2 Running](images/EC2-state-after-test.png)
 ________________________________________
 **Step 3: EventBridge Scheduling**
 
@@ -68,7 +68,7 @@ cron(18:00* MON-FRI *)
 { "action": "stop" }
 
 Screenshots:
- 
+ ![EventBridge Rule](images/schedule rule.png)
 ________________________________________
 **Architecture Flow**
 
