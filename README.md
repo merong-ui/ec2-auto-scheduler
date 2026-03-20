@@ -3,6 +3,7 @@
 Automated EC2 Start/Stop Using Lambda & EventBridge (Cost Optimization)
 
 **Project Overview**
+
 This project demonstrates a serverless solution to automate the start and stop of Amazon EC2 instances using Amazon Web Services services.
 By scheduling instances to run only during business hours, this solution reduces unnecessary cloud costs and manual effort.
 ________________________________________
@@ -12,6 +13,7 @@ Manually starting and stopping EC2 instances is inefficient and time-consuming.
 This project automates the process using scheduled triggers, improving operational efficiency.
 
 **Technologies Used**
+
 •	Amazon EC2
 
 •	AWS Lambda
@@ -36,6 +38,7 @@ ________________________________________________
 Screenshots:
 
 •	Terraform configuration
+
 ![EC2 Running](images/Terraform-configuration.png)
 
 •	EC2 instances running in console
@@ -59,6 +62,7 @@ Testing:
 Screenshots:
 
 •	Lambda test execution
+
  ![Lambda Code](images/Lambda-test-execution.png)
 •	EC2 state after
  
@@ -76,6 +80,7 @@ cron(18:00* MON-FRI *)
 { "action": "stop" }
 
 Screenshots:
+
  ![EventBridge Rule](images/schedule-rules-created.png)
 ________________________________________
 **Architecture Flow**
