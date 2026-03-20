@@ -2,6 +2,7 @@
 Automated EC2 scheduling using AWS Lambda and EventBridge
 
 Automated EC2 Start/Stop Using Lambda & EventBridge (Cost Optimization)
+
 **Project Overview**
 This project demonstrates a serverless solution to automate the start and stop of Amazon EC2 instances using Amazon Web Services services.
 By scheduling instances to run only during business hours, this solution reduces unnecessary cloud costs and manual effort.
@@ -42,7 +43,7 @@ Developed a Python Lambda function that:
 IAM Roles:
 •	AWSLambdaBasicExecutionRole (enables CloudWatch logging)
 •	AmazonEC2FullAccess (used for demo purposes)
-⚠️ In production, this should be replaced with a least-privilege policy.
+_⚠️ In production, this should be replaced with a least-privilege policy._
 Testing:
 •	Triggered Lambda manually
 •	Verified EC2 instances changed state (running ↔ stopped)
