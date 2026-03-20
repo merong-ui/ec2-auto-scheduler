@@ -54,7 +54,7 @@ Screenshots:
  ![Lambda Code](images/Lambda-test-execution.png)
 •	EC2 state after
  
-![EC2 Running](images/EC2-state-after-test.png)
+![EC2 Running](images/EC2 state after test.png)
 ________________________________________
 **Step 3: EventBridge Scheduling**
 
@@ -68,7 +68,7 @@ cron(18:00* MON-FRI *)
 { "action": "stop" }
 
 Screenshots:
- ![EventBridge Rule](images/schedule rule.png)
+ ![EventBridge Rule](images/schedule rules created.png)
 ________________________________________
 **Architecture Flow**
 
