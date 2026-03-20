@@ -1,5 +1,4 @@
 # ec2-auto-scheduler
-Automated EC2 scheduling using AWS Lambda and EventBridge
 
 Automated EC2 Start/Stop Using Lambda & EventBridge (Cost Optimization)
 
@@ -11,14 +10,22 @@ ________________________________________
 
 Manually starting and stopping EC2 instances is inefficient and time-consuming.
 This project automates the process using scheduled triggers, improving operational efficiency.
-Technologies Used
+
+**Technologies Used**
 •	Amazon EC2
+
 •	AWS Lambda
+
 •	Amazon EventBridge
+
 •	Terraform
+
 •	AWS IAM
+
 •	Amazon CloudWatch
+
 •	Python (Boto3)
+
 ________________________________________________
 
 **Step 1: Provision EC2 Instances (Terraform)**
